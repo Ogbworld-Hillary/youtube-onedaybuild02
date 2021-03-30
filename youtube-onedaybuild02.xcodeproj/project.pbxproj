@@ -13,6 +13,10 @@
 		CEFF10D32612C61000D045D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFF10D12612C61000D045D9 /* Main.storyboard */; };
 		CEFF10D52612C61400D045D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFF10D42612C61400D045D9 /* Assets.xcassets */; };
 		CEFF10D82612C61400D045D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFF10D62612C61400D045D9 /* LaunchScreen.storyboard */; };
+		CEFF10E42612E1B800D045D9 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF10E32612E1B800D045D9 /* Video.swift */; };
+		CEFF10E82612E26300D045D9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF10E72612E26300D045D9 /* Constants.swift */; };
+		CEFF10EB2612E46D00D045D9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF10EA2612E46D00D045D9 /* Model.swift */; };
+		CEFF10EE261302AE00D045D9 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF10ED261302AE00D045D9 /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		CEFF10D42612C61400D045D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEFF10D72612C61400D045D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEFF10D92612C61400D045D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFF10E32612E1B800D045D9 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		CEFF10E72612E26300D045D9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CEFF10EA2612E46D00D045D9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CEFF10ED261302AE00D045D9 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				CEFF10D42612C61400D045D9 /* Assets.xcassets */,
 				CEFF10D62612C61400D045D9 /* LaunchScreen.storyboard */,
 				CEFF10D92612C61400D045D9 /* Info.plist */,
+				CEFF10E72612E26300D045D9 /* Constants.swift */,
+				CEFF10E32612E1B800D045D9 /* Video.swift */,
+				CEFF10EA2612E46D00D045D9 /* Model.swift */,
+				CEFF10ED261302AE00D045D9 /* Response.swift */,
 			);
 			path = "youtube-onedaybuild02";
 			sourceTree = "<group>";
@@ -137,9 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFF10E82612E26300D045D9 /* Constants.swift in Sources */,
 				CEFF10D02612C61000D045D9 /* ViewController.swift in Sources */,
 				CEFF10CC2612C61000D045D9 /* AppDelegate.swift in Sources */,
+				CEFF10EB2612E46D00D045D9 /* Model.swift in Sources */,
 				CEFF10CE2612C61000D045D9 /* SceneDelegate.swift in Sources */,
+				CEFF10E42612E1B800D045D9 /* Video.swift in Sources */,
+				CEFF10EE261302AE00D045D9 /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
